@@ -11,7 +11,7 @@ toggleMember(setWithFoo, 'baz') // Set(['foo', 'bar', 'baz'])
 // or use with chill-patch to safely monkey patch Set
 const chillPatch = require('chill-patch')
 const toggle = chillPatch(Set, toggleMember)
-setWithFoo[toggleMember]('foo') // Set(['bar'])
+setWithFoo[toggle]('foo') // Set(['bar'])
 ```
 
 
