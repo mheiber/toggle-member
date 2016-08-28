@@ -1,6 +1,6 @@
 {
   "name": "toggle-member",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "toggleMember(set, member) returns a new set with/without member.",
   "main": "index.js",
   "scripts": {
